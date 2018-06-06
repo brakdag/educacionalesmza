@@ -13,7 +13,7 @@ app.get('/datos', function (req, res) {
 });
 
 app.listen(server_port, function () {
-  console.log('Servidor corriendo.');
+  console.log('Servidor corriendo en puerto.' +server_port );
 });
 
 function retorno(data,res){
